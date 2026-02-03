@@ -1,0 +1,23 @@
+/* Color and font */
+body {
+  font-family: Arial;
+  background-color: #f5afaf;
+}
+
+/* Header style */
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+.login-box {
+    width: 300px;
+}
+
+.login-box input {
+    width: 100%;
+}
+
+.login-box button {
+    width: 100%;
+}
