@@ -1,7 +1,7 @@
 /* Color and font */
 body {
   font-family: Arial;
-  background-color: #f5afaf;
+  background: linear-gradient(to right, #f5afaf, #eb92e1);
 }
 
 /* Header style */
@@ -11,13 +11,34 @@ h1 {
 }
 
 .login-box {
-    width: 300px;
+    width: 50%;
+    margin: 50px auto;
+    /* padding: 20px; */
+    background: white;
+    border-radius: 2%;
+    box-shadow: 0 4px 10px rgb(3, 58, 2);
 }
 
 .login-box input {
-    width: 100%;
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 3%;
+    border-radius: 2%;
+}
+
+.login-box input:focus {
+  outline: none;
+  border: 2px solid blue;
 }
 
 .login-box button {
     width: 100%;
+    padding: 5%;
+    background: rgb(131, 230, 225);
+    border: none;
+    border-radius: 5%;
+}
+
+.login-box button:hover {
+  background: rgb(39, 190, 201);
 }
